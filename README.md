@@ -11,7 +11,8 @@ The only bug I haven't been able to squash (haven't bothered tbh) is every once 
 # Can I see the bot in action?
 Yea, the bot is currently feeding many servers, but you can see it in action on my discord server ([DISCORD.D4NG3R.COM](https://discord.d4ng3r.com)) in `BOT FEEDS > #meme-stream` at quality flow.
 
-# Usage
+# Usage (Under the assumption you installed sqlite and have created a database structured like `DiscordBotDB.png`)
+- Ensure you add your discord webhook URL to your sqlite db (See `DiscordBotDB.png`)
 - Pull the SH script to your run location (I just run it from user folder `/home/<user>/projects/discord_bots/memes` but you can run it from anywhere.)
 - Set the `hooks` var (line 4) to specify DB/Table/Data selections
 - Set the `bot_files` var (line 8), this tells the bot where to cache used URLs
